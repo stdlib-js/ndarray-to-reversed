@@ -39,7 +39,7 @@
   "dependencies": {
     "@stdlib/assert-is-ndarray-like": "^0.2.2",
     "@stdlib/ndarray-base-to-reversed": "github:stdlib-js/ndarray-base-to-reversed#main",
-    "@stdlib/string-format": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2",
     "@stdlib/types": "^0.4.3",
     "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
