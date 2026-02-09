@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import toReversed from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-reversed@deno/mod.js';
+import toReversed from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-reversed@v0.1.1-deno/mod.js';
 ```
 
 #### toReversed( x )
@@ -101,7 +101,7 @@ arr = ndarray2array( y );
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-uniform@deno/mod.js';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@deno/mod.js';
-import toReversed from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-reversed@deno/mod.js';
+import toReversed from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-reversed@v0.1.1-deno/mod.js';
 
 var x = uniform( [ 3, 3, 3 ], -10.0, 10.0 );
 console.log( ndarray2array( x ) );
