@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import toReversed from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-reversed@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-to-reversed/tags). For example,
+
+```javascript
 import toReversed from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-reversed@v0.1.1-deno/mod.js';
 ```
 
@@ -101,7 +106,7 @@ arr = ndarray2array( y );
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-uniform@deno/mod.js';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@deno/mod.js';
-import toReversed from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-reversed@v0.1.1-deno/mod.js';
+import toReversed from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-reversed@deno/mod.js';
 
 var x = uniform( [ 3, 3, 3 ], -10.0, 10.0 );
 console.log( ndarray2array( x ) );
