@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import toReversed from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-reversed@esm/index.mjs';
+import toReversed from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-reversed@v0.1.1-esm/index.mjs';
 ```
 
 #### toReversed( x )
@@ -106,7 +106,7 @@ arr = ndarray2array( y );
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-uniform@esm/index.mjs';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@esm/index.mjs';
-import toReversed from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-reversed@esm/index.mjs';
+import toReversed from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-reversed@v0.1.1-esm/index.mjs';
 
 var x = uniform( [ 3, 3, 3 ], -10.0, 10.0 );
 console.log( ndarray2array( x ) );
