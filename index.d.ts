@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2025 The Stdlib Authors.
@@ -16,17 +16,21 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
+
+import { ndarray } from '@stdlib/types/ndarray';
 
 /**
-* Return a new ndarray where the order of elements of an input ndarray is reversed along each dimension.
+* Returns a new ndarray where the order of elements of an input ndarray is reversed along each dimension.
 *
-* @module @stdlib/ndarray-to-reversed
+* @param x - input array
+* @returns output ndarray
 *
 * @example
 * var ndarray = require( '@stdlib/ndarray-ctor' );
 * var ndarray2array = require( '@stdlib/ndarray-to-array' );
-* var toReversed = require( '@stdlib/ndarray-to-reversed' );
 *
 * var buffer = [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ];
 * var shape = [ 3, 2 ];
@@ -45,12 +49,9 @@
 * arr = ndarray2array( y );
 * // returns [ [ 6.0, 5.0 ], [ 4.0, 3.0 ], [ 2.0, 1.0 ] ]
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function toReversed<T extends ndarray = ndarray>( x: T ): T;
 
 
 // EXPORTS //
 
-module.exports = main;
+export = toReversed;
