@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-05)
+## Unreleased (2026-11-20)
 
 <section class="commits">
 
@@ -12,6 +12,8 @@
 
 <details>
 
+-   [`c81c256`](https://github.com/stdlib-js/stdlib/commit/c81c256207c0084057c4bea529489a2ba94339b5) - **test:** use dedicated zero-dimensional tensor constructor in `ndarray/to-reversed` [(#16727)](https://github.com/stdlib-js/stdlib/pull/16727) _(by Kartik)_
+-   [`78ad2fa`](https://github.com/stdlib-js/stdlib/commit/78ad2fa5dbb12ce808dec93197d5343745ff91b8) - **docs:** normalize trailing newlines in REPL help texts [(#16420)](https://github.com/stdlib-js/stdlib/pull/16420) _(by Philipp Burckhardt)_
 -   [`5aadc76`](https://github.com/stdlib-js/stdlib/commit/5aadc76d03d8e3c511de2f14131be73dfe118af9) - **bench:** refactor to use string interpolation in `ndarray` [(#11445)](https://github.com/stdlib-js/stdlib/pull/11445) _(by Karan Anand)_
 -   [`5426e50`](https://github.com/stdlib-js/stdlib/commit/5426e503c7239b8672e8f2c9621ec0dfc9dcf391) - **docs:** improve doctests for ndarray instances in `ndarray/to-reversed` [(#11506)](https://github.com/stdlib-js/stdlib/pull/11506) _(by Uday Kakade, Athan Reines)_
 
@@ -25,10 +27,12 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Karan Anand
+-   Kartik
+-   Philipp Burckhardt
 -   Uday Kakade
 
 </section>
